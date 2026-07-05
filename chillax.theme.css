@@ -62,16 +62,6 @@
     --sidebar-colour: rgb(36, 36, 36);
 }
 
-/*window*/ /*light mode*/
-:root.theme-light {
-    --window-margin: 20px; /*must be above 20px*/
-    --window-colour: rgba(255, 255, 255, 0.6);
-    --window-blur: 5px;
-    --window-border-radius: 10px;
-    --sidebar-colour: rgb(209, 209, 209);
-}
-
-
 /*roots*/ /*both dark and light*/
 :root {
     --user-name: "Snow";
@@ -96,7 +86,7 @@
     --rs-streaming-color: #643da7;
     --rs-invisible-color: #636b75;
     --rs-phone-visible: block; /* change it to `none` to disable mobile icon */
-    --rs-phone-color: var(--rs-online-color);
+    --rs-phone-color: #1df594;
 
     /* For accent color to take full effect must need to change both */
     /* chillax colours rgb */
@@ -155,26 +145,6 @@
     --background-secondary: transparent;
     --background-tertiary: transparent;
     --background-accent: rgb(36, 36, 36);
-    --activity-card-background: transparent;
-    --deprecated-panel-background: transparent;
-}
-
-/*discord transparency*//*roots*/ /*theme light*/
-.theme-light {
-    --background-message-hover: rgba(255, 255, 255, 0.055);
-    --header-primary: rgb(0, 0, 0);
-    --header-secondary: #3f3f3f;
-    --text-normal: #303030;
-    --text-muted: #333333;
-    --channels-default: #585b5e;
-    --interactive-normal: #3a3a3a;
-    --interactive-hover: #333333;
-    --interactive-active: rgb(0, 0, 0);
-    --interactive-muted: #4f545c;
-    --background-primary: transparent;
-    --background-secondary: transparent;
-    --background-tertiary: transparent;
-    --background-accent: rgb(27, 27, 27);
     --activity-card-background: transparent;
     --deprecated-panel-background: transparent;
 }
