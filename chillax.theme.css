@@ -43,7 +43,7 @@
 /*Chillax Roots*/
 :root {
     /*background image*/ /*(replace the link to use)*/
-    --background-image: var(--wallpaper);
+    --background-image: url("https://warrayquipsome.github.io/Chillax/Wallpapers/modern-dark-bg.png");
     --bg-opacity: 100%;
     /*bg dev suggestions*/
     --wallpaper: url("https://warrayquipsome.github.io/Chillax/Wallpapers/chillax-default.png");
@@ -74,7 +74,7 @@
 
 /*roots*/ /*both dark and light*/
 :root {
-    --user-name: "King";
+    --user-name: "Snow";
     --edited-message: " EDITED ✎ ";
     --font-name: Poppins;
     --font-size: 13px;
@@ -100,9 +100,9 @@
 
     /* For accent color to take full effect must need to change both */
     /* chillax colours rgb */
-    --accentcolor: 251, 84, 84;
+    --accentcolor: 84, 84, 251;
     /* chillax colours hex */
-    --accentcolorV2: #fb5454;
+    --accentcolorV2: #5454fb;
 
 
     /* settings modal root */
